@@ -5,3 +5,4 @@ member
 isono shotaro
 イソノ　ショウタロウ
 山﨑　健
+安田　光
