@@ -7,3 +7,6 @@ isono shotaro
 堀田　空
 山﨑　健
 安田　光
+
+KAPUKI_v2
+
