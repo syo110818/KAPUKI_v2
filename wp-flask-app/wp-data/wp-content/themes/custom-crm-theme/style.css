@@ -21,24 +21,39 @@ body {
 
 /* Header styles */
 .site-header {
-    position: relative;
-    z-index: 1000;
-    background-color: #ffffff;
-    border-bottom: 1px solid #e5e5e5;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  z-index: 1000;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* 左右に分ける */
+  padding: 0 20px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
-.header-inner {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: none;
-    margin: 0 auto;
-    padding: 0.5rem 1rem;
+.header-left,
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 
 .header-left {
-    display: flex;
-    align-items: center;
+  justify-content: flex-start;
+}
+
+.header-right {
+  justify-content: flex-end;
 }
 
 .menu-toggle {
@@ -94,23 +109,44 @@ body {
 }
 
 .user-icon-wrapper a {
-    font-size: 1.5rem;
+    margin-right: 20px;
+    font-size: 4rem; /* ← アイコンサイズを大きく */
     color: #333;
     text-decoration: none;
+    display: flex;
+    align-items: flex-end; 
+    height: 100%; 
 }
+
 
 /* Layout container */
-.site-container {
-    display: flex;
-    min-height: calc(100vh - 60px);
+.site-sidebar {
+    position: fixed;
+    top: 60px;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #f8f4e8;
+    transition: left 0.3s ease-in-out;
+    z-index: 1000;
 }
 
-/* Sidebar styles */
-.site-sidebar {
-    width: 240px;
-    background-color: #f4f1e3;
-    padding: 1rem;
-    box-sizing: border-box;
+.site-sidebar.active {
+    left: 0;
+}
+.sidebar-item.active .sidebar-link {
+    background-color: #bca6e7;
+    border-radius: 6px;
+    font-weight: bold;
+}
+.site-container {
+    display: flex;
+    margin-top: 60px; /* ← 常にヘッダーの高さ分だけ下げる */
+    transition: margin-left 0.3s ease-in-out;
+}
+
+.site-container.sidebar-open {
+    margin-left: 250px;
 }
 
 .sidebar-title {

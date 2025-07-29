@@ -148,3 +148,23 @@
 [16-Jul-2025 12:28:33 UTC] PHP Deprecated:  Return type of OpenGraphGetter::valid() should either be compatible with Iterator::valid(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/wp-content/themes/cocoon-master/lib/open-graph.php on line 259
 [16-Jul-2025 12:28:33 UTC] PHP Deprecated:  Return type of OpenGraphGetter::rewind() should either be compatible with Iterator::rewind(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/wp-content/themes/cocoon-master/lib/open-graph.php on line 255
 [16-Jul-2025 12:28:33 UTC] PHP Notice:  関数 _load_textdomain_just_in_time が<strong>誤って</strong>呼び出されました。<code>cocoon</code> ドメインの翻訳の読み込みが早すぎました。これは通常、プラグインまたはテーマの一部のコードが早すぎるタイミングで実行されていることを示しています。翻訳は <code>init</code> アクション以降で読み込む必要があります。 詳しくは <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">WordPress のデバッグ</a>をご覧ください。 (このメッセージはバージョン 6.7.0 で追加されました) in /var/www/html/wp-includes/functions.php on line 6121
+[28-Jul-2025 17:04:48 UTC] Automatic updates starting...
+[28-Jul-2025 17:04:48 UTC]   Automatic plugin updates starting...
+[28-Jul-2025 17:04:48 UTC]   Automatic plugin updates complete.
+[28-Jul-2025 17:04:48 UTC] Automatic updates complete.
+[28-Jul-2025 19:28:37 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[28-Jul-2025 19:28:37 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[28-Jul-2025 19:28:37 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[28-Jul-2025 19:28:37 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[28-Jul-2025 19:28:37 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[28-Jul-2025 19:28:37 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[28-Jul-2025 19:28:37 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[28-Jul-2025 19:28:37 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[28-Jul-2025 19:28:37 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[28-Jul-2025 19:28:37 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[29-Jul-2025 05:01:47 UTC] Automatic updates starting...
+[29-Jul-2025 05:01:48 UTC]   Automatic plugin updates starting...
+[29-Jul-2025 05:01:48 UTC]   Automatic plugin updates complete.
+[29-Jul-2025 05:01:48 UTC] Automatic updates complete.
+[29-Jul-2025 09:50:07 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /var/www/html/wp-content/themes/custom-crm-theme/sidebar.php on line 16
+[29-Jul-2025 09:50:12 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /var/www/html/wp-content/themes/custom-crm-theme/sidebar.php on line 16

@@ -35,9 +35,6 @@
             </div>
         </div>
         <div class="header-right">
-            <div class="search-form-wrapper">
-                <?php get_search_form(); ?>
-            </div>
             <div class="user-icon-wrapper">
                 <a href="<?php echo esc_url( wp_login_url() ); ?>" class="user-icon" aria-label="User profile">
                     <span class="dashicons dashicons-admin-users"></span>
@@ -49,3 +46,16 @@
 <div id="site-container" class="site-container">
     <?php get_sidebar(); ?>
     <main id="primary" class="site-main">
+<!--ハンバーガメニュー用スクリプト-->
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const toggleButton = document.getElementById('sidebarToggle');
+    const sidebar = document.getElementById('site-sidebar');
+    const container = document.getElementById('site-container');
+
+    toggleButton.addEventListener('click', function () {
+        sidebar.classList.toggle('active');
+        container.classList.toggle('sidebar-open');
+    });
+});
+</script>
