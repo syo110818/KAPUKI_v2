@@ -126,7 +126,7 @@ body {
     left: -250px;
     width: 250px;
     height: 100%;
-    background-color: #f8f4e8;
+    background-color: #bca6e7;
     transition: left 0.3s ease-in-out;
     z-index: 1000;
 }
@@ -135,7 +135,7 @@ body {
     left: 0;
 }
 .sidebar-item.active .sidebar-link {
-    background-color: #bca6e7;
+    background-color: #7c43ee;
     border-radius: 6px;
     font-weight: bold;
 }
@@ -178,7 +178,7 @@ body {
 }
 
 .sidebar-menu li a:hover {
-    background-color: #eae5d6;
+    background-color: #bca6e7;
 }
 
 .sidebar-text {
@@ -200,3 +200,4 @@ body {
     background-color: #fafafa;
     color: #666;
 }
+
