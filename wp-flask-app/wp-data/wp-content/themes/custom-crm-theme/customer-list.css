@@ -1,0 +1,143 @@
+/* 顧客一覧テーブルのカラムごとのスタイル */
+.customer-list-table {
+  width: 100%;
+  border-radius: 0.75rem;
+  border: 1px solid #d8d4e3;
+  background: #f9f9fb;
+  overflow: hidden;
+}
+.customer-list-table th {
+  color: #131019;
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding: 0.75rem 1rem;
+  text-align: left;
+  background: #f9f9fb;
+}
+.customer-list-table td {
+  color: #695b8b;
+  font-size: 0.875rem;
+  font-weight: 400;
+  padding: 0.5rem 1rem;
+  height: 72px;
+}
+.customer-list-col-name {
+  width: 200px;
+}
+.customer-list-col-tel {
+  width: 160px;
+}
+.customer-list-col-address {
+  width: 220px;
+}
+.customer-list-col-plan {
+  width: 120px;
+}
+.customer-list-col-action {
+  width: 100px;
+  text-align: center;
+}
+/* 顧客一覧ページ用CSS */
+
+body {
+  background-color: #d5cfbe;
+}
+
+.layout-content-container {
+  max-width: 960px;
+  flex: 1;
+}
+
+.header-title {
+  color: #131019;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 1.2;
+  letter-spacing: -0.015em;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  border: 1px solid #6944a8;
+  border-radius: 9999px;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  width: 12rem;
+  outline: none;
+  background: #fff;
+  color: #000;
+}
+.search-input::placeholder {
+  color: #bcbcbc;
+}
+.search-input:focus {
+  box-shadow: 0 0 0 2px #bca6e7;
+}
+
+.search-button {
+  margin-left: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  background: #6944a8;
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: background 0.2s;
+  border: none;
+}
+.search-button:hover {
+  background: #4b277a;
+}
+
+.table-container {
+  padding: 1rem;
+}
+
+.customer-table {
+  width: 100%;
+  border-radius: 0.75rem;
+  border: 1px solid #d8d4e3;
+  background: #f9f9fb;
+  overflow: hidden;
+}
+
+.customer-table th {
+  color: #131019;
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding: 0.75rem 1rem;
+  text-align: left;
+  background: #f9f9fb;
+}
+
+.customer-table td {
+  color: #695b8b;
+  font-size: 0.875rem;
+  font-weight: 400;
+  padding: 0.5rem 1rem;
+}
+
+.detail-button {
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  background: #6944a8;
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border: none;
+  transition: background 0.2s;
+}
+.detail-button:hover {
+  background: #4b277a;
+}
+
+.count-text {
+  color: #695b8b;
+  font-size: 0.875rem;
+  font-weight: 400;
+  margin-top: 0.25rem;
+}

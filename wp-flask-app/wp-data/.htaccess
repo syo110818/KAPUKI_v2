@@ -1,3 +1,6 @@
+#BEGIN Really Simple Security LETS ENCRYPT
+RewriteRule ^.well-known/(.*)$ - [L]
+#END Really Simple Security LETS ENCRYPT
 # BEGIN WordPress
 # "BEGIN WordPress" から "END WordPress" までのディレクティブ (行) は
 # 動的に生成され、WordPress フィルターによってのみ修正が可能です。
@@ -11,5 +14,4 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /index.php [L]
 </IfModule>
-
 # END WordPress

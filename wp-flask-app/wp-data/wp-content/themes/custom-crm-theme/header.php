@@ -35,11 +35,7 @@
             </div>
         </div>
         <div class="header-right">
-            <div class="user-icon-wrapper">
-                <a href="<?php echo esc_url( wp_login_url() ); ?>" class="user-icon" aria-label="User profile">
-                    <span class="dashicons dashicons-admin-users"></span>
-                </a>
-            </div>
+            <!-- User profile icon removed as per new design -->
         </div>
     </div>
 </header>

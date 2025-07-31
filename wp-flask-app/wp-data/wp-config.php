@@ -1,4 +1,13 @@
 <?php
+//Begin Really Simple Security session cookie settings
+@ini_set('session.cookie_httponly', true);
+@ini_set('session.cookie_secure', true);
+@ini_set('session.use_only_cookies', true);
+//END Really Simple Security cookie settings
+//Begin Really Simple Security key
+define('RSSSL_KEY', '9Zfy0rzL5LWTzflCuSCQuIoaTJjuSl55p4sDfQuDWGWXCPBTHy8jxnAWlvo7cGMO');
+//END Really Simple Security key
+
 /**
  * The base configuration for WordPress
  *
@@ -122,6 +131,8 @@ if ($configExtra = getenv_docker('WORDPRESS_CONFIG_EXTRA', '')) {
 	eval($configExtra);
 }
 define('FS_METHOD', 'direct');
+//define('WP_HOME', 'http://furisode-kapuki.com');
+//define('WP_SITEURL','http://furisode-kapuki.com');
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */

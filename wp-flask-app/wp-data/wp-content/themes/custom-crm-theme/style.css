@@ -15,7 +15,7 @@ Text Domain: custom-crm-theme
 body {
     margin: 0;
     font-family: 'Noto Sans JP', sans-serif;
-    background: #fff;
+    background: #d6cfbc;
     color: #333;
 }
 
@@ -30,7 +30,7 @@ body {
   background-color: white;
   display: flex;
   align-items: center;
-  justify-content: space-between; /* 左右に分ける */
+  justify-content: space-between; /* 蟾ｦ蜿ｳ縺ｫ蛻�￠繧� */
   padding: 0 20px;
   box-shadow: 0 1px 4px rgba(0,0,0,0.1);
 }
@@ -110,7 +110,7 @@ body {
 
 .user-icon-wrapper a {
     margin-right: 20px;
-    font-size: 4rem; /* ← アイコンサイズを大きく */
+    font-size: 4rem; /* 竊� 繧｢繧､繧ｳ繝ｳ繧ｵ繧､繧ｺ繧貞､ｧ縺阪￥ */
     color: #333;
     text-decoration: none;
     display: flex;
@@ -121,9 +121,10 @@ body {
 
 /* Layout container */
 .site-sidebar {
+    /* Sidebar is visible by default instead of hidden off窶壮creen. */
     position: fixed;
     top: 60px;
-    left: -250px;
+    left: 0;
     width: 250px;
     height: 100%;
     background-color: #bca6e7;
@@ -131,22 +132,28 @@ body {
     z-index: 1000;
 }
 
+/* When the sidebar has the `active` class applied we slide it out of view.
+   This inverts the original behaviour so clicking the toggle hides the sidebar. */
 .site-sidebar.active {
-    left: 0;
+    left: -250px;
 }
 .sidebar-item.active .sidebar-link {
+    /* Highlight selected sidebar item with a stylish rounded rectangle. */
     background-color: #7c43ee;
-    border-radius: 6px;
+    border-radius: 10px;
     font-weight: bold;
 }
 .site-container {
     display: flex;
-    margin-top: 60px; /* ← 常にヘッダーの高さ分だけ下げる */
+    /* Position the main container to make room for the open sidebar by default. */
+    margin-top: 60px; /* leave space for the fixed header */
+    margin-left: 250px;
     transition: margin-left 0.3s ease-in-out;
 }
 
+/* When the sidebar is toggled closed the container slides left to reclaim space. */
 .site-container.sidebar-open {
-    margin-left: 250px;
+    margin-left: 0;
 }
 
 .sidebar-title {
@@ -199,5 +206,99 @@ body {
     text-align: center;
     background-color: #fafafa;
     color: #666;
+}
+/* ==========================================================================
+   Todo Page Styles
+   ========================================================================== */
+.todo-container {
+    padding: 2rem;
+}
+
+.todo-heading {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.todo-divider {
+    height: 1px;
+    background-color: #e6e6e6;
+    margin-bottom: 2rem;
+}
+
+.todo-category {
+    margin-bottom: 2rem;
+}
+
+.todo-category-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    margin-left: 5rem; /* ここを調整することでインデント量を変更できます */
+}
+
+/* 各 Todo 項目を小見出しよりもさらに右へ移動 */
+.todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    margin-left: 10rem; /* 小見出しより大きな余白を設定 */
+}
+
+.todo-item-left {
+    display: flex;
+    align-items: center;
+}
+
+.todo-item-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 1rem;
+    background-color: #ccc;
+}
+
+.todo-item-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.todo-item-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.todo-item-name {
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+    margin-bottom: 0.25rem;
+}
+
+.todo-item-label {
+    font-size: 0.875rem;
+    margin-left: 1rem;
+    color: #999;
+}
+
+.todo-item-button {
+    background-color: #6944a8;
+    color: #333;
+    padding: 0.4rem 1rem;
+    border-radius: 30px;
+    margin-right: 3rem;
+    border: none;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    
+}
+
+.todo-item-button:hover {
+    background-color: #6944a8;
 }
 
