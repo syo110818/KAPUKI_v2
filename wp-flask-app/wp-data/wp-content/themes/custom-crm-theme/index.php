@@ -39,11 +39,12 @@ get_header();
                       placeholder="顧客を検索"
                       class="search-input"
                       autocomplete="off"
+                      id="customer_search_name"
                     />
-                    <button type="submit" class="search-button">検索</button>
+                    <button type="button" class="search-button" onclick="searchCustomerByName()">検索</button>
                   </form>
                 </div>
-                <div class="count-text">登録件数：6件</div>
+                <div class="count-text" id="count-text">登録件数：0件</div>
               </div>
               <!-- 顧客一覧テーブル -->
               <div class="table-container @container">
@@ -58,56 +59,8 @@ get_header();
                         <th class="customer-list-col-action"></th>
                       </tr>
                     </thead>
-                    <tbody>
-                      <tr>
-                        <td class="customer-list-col-name">山田 太郎</td>
-                        <td class="customer-list-col-tel">090-1234-5678</td>
-                        <td class="customer-list-col-address">東京都渋谷区</td>
-                        <td class="customer-list-col-plan">フォトプラン</td>
-                        <td class="customer-list-col-action"><button type="button" class="detail-button">詳細</button></td>
-                      </tr>
-                      <tr>
-                        <td class="customer-list-col-name">佐藤 花子</td>
-                        <td class="customer-list-col-tel">080-9876-5432</td>
-                        <td class="customer-list-col-address">大阪府大阪市</td>
-                        <td class="customer-list-col-plan">成人式</td>
-                        <td class="customer-list-col-action"><button type="button" class="detail-button">詳細</button></td>
-                      </tr>
-                      <tr>
-                        <td class="customer-list-col-name">鈴木 一郎</td>
-                        <td class="customer-list-col-tel">070-1122-3344</td>
-                        <td class="customer-list-col-address">愛知県名古屋市</td>
-                        <td class="customer-list-col-plan">成人式</td>
-                        <td class="customer-list-col-action"><button type="button" class="detail-button">詳細</button></td>
-                      </tr>
-                      <tr>
-                        <td class="customer-list-col-name">田中 次郎</td>
-                        <td class="customer-list-col-tel">090-5555-6666</td>
-                        <td class="customer-list-col-address">福岡県福岡市</td>
-                        <td class="customer-list-col-plan">成人式</td>
-                        <td class="customer-list-col-action"><button type="button" class="detail-button">詳細</button></td>
-                      </tr>
-                      <tr>
-                        <td class="customer-list-col-name">高橋 三郎</td>
-                        <td class="customer-list-col-tel">080-7777-8888</td>
-                        <td class="customer-list-col-address">北海道札幌市</td>
-                        <td class="customer-list-col-plan">卒業式</td>
-                        <td class="customer-list-col-action"><button type="button" class="detail-button">詳細</button></td>
-                      </tr>
-                      <tr>
-                        <td class="customer-list-col-name">高橋 三郎</td>
-                        <td class="customer-list-col-tel">080-7777-8888</td>
-                        <td class="customer-list-col-address">北海道札幌市</td>
-                        <td class="customer-list-col-plan">卒業式</td>
-                        <td class="customer-list-col-action"><button type="button" class="detail-button">詳細</button></td>
-                      </tr>
-                      <tr>
-                        <td class="customer-list-col-name">高橋 三郎</td>
-                        <td class="customer-list-col-tel">080-7777-8888</td>
-                        <td class="customer-list-col-address">北海道札幌市</td>
-                        <td class="customer-list-col-plan">卒業式</td>
-                        <td class="customer-list-col-action"><button type="button" class="detail-button">詳細</button></td>
-                      </tr>
+                    <tbody id="customer-list-body">
+                      <!-- JavaScriptで挿入 -->
                     </tbody>
                   </table>
                 </div>
@@ -119,3 +72,68 @@ get_header();
     </div>
   </body>
 </html>
+
+<script>
+// ページロード時に全件表示（name="" を送る）
+document.addEventListener("DOMContentLoaded", () => {
+  // 初期表示で全件を取得
+  searchCustomerByName("");
+});
+
+async function searchCustomerByName(name = null) {
+  // 検索キーワードを決定。引数がある場合はそれを使用、ない場合はフォームの値を取得
+  const searchName = (name !== null) ? name.trim() : document.getElementById("customer_search_name").value.trim();
+  // テーブル本体と件数表示要素を取得
+  const tbody = document.getElementById("customer-list-body");
+  const countText = document.getElementById("count-text");
+
+  tbody.innerHTML = ""; // 前回の結果をクリア
+  countText.textContent = "検索中...";
+
+  try {
+    // FlaskにGETリクエストを送信
+    const response = await fetch(`/flask/search_customer?name=${encodeURIComponent(searchName)}`);
+    
+    // レスポンスがOKでない場合（404 や 500 など）
+    if (!response.ok) {
+      countText.textContent = "登録件数：0件";
+      tbody.innerHTML = `<tr><td colspan="5">顧客が見つかりません。</td></tr>`;
+      return;
+    }
+
+    // JSONデータ（DBの検索結果）を取得
+    const customers = await response.json();
+
+    // 配列でない、または要素がない場合
+    if (!Array.isArray(customers) || customers.length === 0) {
+      countText.textContent = "登録件数：0件";
+      tbody.innerHTML = `<tr><td colspan="5">顧客が見つかりません。</td></tr>`;
+      return;
+    }
+
+    // 取得した顧客データをテーブルに挿入
+    customers.forEach(cust => {
+      const row = `
+        <tr>
+          <td class="customer-list-col-name">${cust.FIRST_NAME || ""} ${cust.LAST_NAME || ""}</td>
+          <td class="customer-list-col-tel">${cust.TEL || ""}</td>
+          <td class="customer-list-col-address">${cust.ADDRESS || ""}</td>
+          <td class="customer-list-col-plan">${cust.CATEGORY_NAME || ""}</td>
+          <td class="customer-list-col-action"><button type="button" class="detail-button">詳細</button></td>
+        </tr>
+      `;
+      tbody.insertAdjacentHTML("beforeend", row);
+    });
+
+    // 件数表示を更新
+    countText.textContent = `登録件数：${customers.length}件`;
+
+  } catch (error) {
+    console.error("検索エラー:", error);
+    countText.textContent = "登録件数：0件";
+    tbody.innerHTML = `<tr><td colspan="5">検索中にエラーが発生しました。</td></tr>`;
+  }
+}
+</script>
+
+<?php get_footer(); ?>
