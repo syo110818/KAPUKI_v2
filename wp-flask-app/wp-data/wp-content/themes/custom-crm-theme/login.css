@@ -1,0 +1,68 @@
+/* ===== ログイン画面デザイン ===== */
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    text-align: center;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.login-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.login-subtitle {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.login-input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    outline: none;
+}
+
+.login-input:focus {
+    border-color: #333;
+}
+
+.login-button {
+    background-color: #000;
+    color: #fff;
+    padding: 14px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.login-button:hover {
+    background-color: #333;
+}
+
+.login-response {
+    margin-top: 15px;
+    color: red;
+    font-size: 14px;
+}
+
+.logout-btn {
+    background: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}

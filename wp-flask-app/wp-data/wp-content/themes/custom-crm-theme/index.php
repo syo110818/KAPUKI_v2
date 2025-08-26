@@ -21,54 +21,55 @@ get_header();
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
   </head>
   <body>
-      <!-- メインレイアウト（サイドバー＋コンテンツ） -->
-      <div class="flex flex-row flex-1 min-h-0">
-        <!-- サイドバーは sidebar.php で表示されます -->
-        <div class="flex flex-col flex-1 min-h-0">
-          <!-- 顧客一覧ページのメインコンテンツ -->
-          <div class="gap-1 px-6 flex flex-1 justify-center py-0">
-            <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
-              <!-- 顧客一覧ヘッダーと検索フォーム -->
-              <div class="flex flex-col gap-1 px-4 pb-0 pt-0">
-                <div class="flex items-center justify-between">
-                  <h2 class="header-title">顧客一覧</h2>
-                  <form class="search-form" action="#" method="get">
-                    <input
-                      type="text"
-                      name="customer_search"
-                      placeholder="顧客を検索"
-                      class="search-input"
-                      autocomplete="off"
-                      id="customer_search_name"
-                    />
-                    <button type="button" class="search-button" onclick="searchCustomerByName()">検索</button>
-                  </form>
-                </div>
-                <div class="count-text" id="count-text">登録件数：0件</div>
+    <!-- メインレイアウト（サイドバー＋コンテンツ） -->
+    <div>
+      <!-- サイドバーは sidebar.php で表示されます -->
+      <div>
+        <!-- 顧客一覧ページのメインコンテンツ -->
+        <div>
+          <div>
+            <!-- 顧客一覧ヘッダーと検索フォーム -->
+            <section>
+              <header>
+                <h2>顧客一覧</h2>
+              </header>
+              <div>
+                <form action="#" method="get">
+                  <input
+                    type="text"
+                    name="customer_search"
+                    placeholder="顧客を検索"
+                    autocomplete="off"
+                    id="customer_search_name"
+                  />
+                  <button type="button" onclick="searchCustomerByName()">検索</button>
+                </form>
               </div>
-              <!-- 顧客一覧テーブル -->
-              <div class="table-container @container">
-                <div class="customer-table">
-                  <table class="customer-table customer-list-table">
-                    <thead>
-                      <tr>
-                        <th class="customer-list-col-name">氏名</th>
-                        <th class="customer-list-col-tel">電話番号</th>
-                        <th class="customer-list-col-address">住所</th>
-                        <th class="customer-list-col-plan">プラン</th>
-                        <th class="customer-list-col-action"></th>
-                      </tr>
-                    </thead>
-                    <tbody id="customer-list-body">
-                      <!-- JavaScriptで挿入 -->
-                    </tbody>
-                  </table>
-                </div>
-                <!-- スタイルは customer-list.css に移動 -->
+              <div id="count-text">登録件数：0件</div>
+            </section>
+            <!-- 顧客一覧テーブル -->
+            <section>
+              <div>
+                <table>
+                  <thead>
+                    <tr>
+                      <th>氏名</th>
+                      <th>電話番号</th>
+                      <th>住所</th>
+                      <th>プラン</th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody id="customer-list-body">
+                    <!-- JavaScriptで挿入 -->
+                  </tbody>
+                </table>
               </div>
-            </div>
+              <!-- スタイルは customer-list.css に移動 -->
+            </section>
           </div>
         </div>
+      </div>
     </div>
   </body>
 </html>

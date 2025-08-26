@@ -2,6 +2,7 @@ from flask import Flask
 from flask_cors import CORS
 from Program.estimate import estimate_route
 from Program.customer import customer_route
+from Program.login import login_route
 
 # 新規でルートを追加する場合
 # from Program.(ルート名) import (関数名)
@@ -22,6 +23,9 @@ db_config = {
 
 # 新規でルートを追加する場合
 # 関数名(app, db_config)
+
+# ログイン画面のルートを登録
+login_route(app, db_config)
 
 # 見積作成画面のルートを登録
 estimate_route(app, db_config)

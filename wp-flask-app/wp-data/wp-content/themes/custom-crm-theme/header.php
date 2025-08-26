@@ -8,12 +8,27 @@
  *
  * @package Custom_CRM_Theme
  */
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+
+// ---------------------------
+// ログアウト処理（押したら login.php に遷移）
+// ---------------------------
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['logout'])) {
+    // session_destroy(); // 後で必要なら有効化
+    header("Location: /login");
+    exit;
+}
+
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <?php wp_head(); ?>
+    <!-- Font Awesome CDN for logout icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body <?php body_class(); ?>>
 
@@ -34,15 +49,23 @@
                 </a>
             </div>
         </div>
+
+        <!-- 右上ログアウトボタン -->
         <div class="header-right">
-            <!-- User profile icon removed as per new design -->
+            <form method="post" class="logout-form" style="display:inline;">
+                <button type="submit" name="logout" class="logout-btn" title="ログアウト">
+                    <i class="fas fa-sign-out-alt"></i> ログアウト
+                </button>
+            </form>
         </div>
     </div>
 </header>
+
 <div id="site-container" class="site-container">
     <?php get_sidebar(); ?>
     <main id="primary" class="site-main">
-<!--ハンバーガメニュー用スクリプト-->
+
+<!-- ハンバーガメニュー用スクリプト -->
 <script>
 document.addEventListener('DOMContentLoaded', function () {
     const toggleButton = document.getElementById('sidebarToggle');

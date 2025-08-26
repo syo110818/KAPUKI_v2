@@ -520,3 +520,554 @@
 [31-Jul-2025 07:06:42 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/theme.php on line 3734
 [31-Jul-2025 07:06:42 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/theme.php on line 3799
 [31-Jul-2025 07:06:42 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/theme.php on line 3799
+[31-Jul-2025 17:00:20 UTC] Automatic updates starting...
+[31-Jul-2025 17:00:20 UTC]   Automatic plugin updates starting...
+[31-Jul-2025 17:00:20 UTC]   Automatic plugin updates complete.
+[31-Jul-2025 17:00:21 UTC] Automatic updates complete.
+[01-Aug-2025 03:23:37 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[01-Aug-2025 03:23:37 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[01-Aug-2025 03:23:37 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[01-Aug-2025 03:23:37 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[01-Aug-2025 03:23:37 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[01-Aug-2025 03:23:37 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[01-Aug-2025 03:23:37 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[01-Aug-2025 03:23:37 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[01-Aug-2025 03:23:37 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[01-Aug-2025 03:23:37 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[01-Aug-2025 05:00:19 UTC] Automatic updates starting...
+[01-Aug-2025 05:00:19 UTC]   Automatic plugin updates starting...
+[01-Aug-2025 05:00:19 UTC]   Automatic plugin updates complete.
+[01-Aug-2025 05:00:20 UTC] Automatic updates complete.
+[01-Aug-2025 06:33:34 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[01-Aug-2025 06:33:34 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[01-Aug-2025 06:33:34 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[01-Aug-2025 06:33:34 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[01-Aug-2025 06:33:34 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[01-Aug-2025 06:33:34 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[01-Aug-2025 06:33:34 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[01-Aug-2025 06:33:34 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[01-Aug-2025 06:33:34 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[01-Aug-2025 06:33:34 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[01-Aug-2025 14:58:45 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[01-Aug-2025 14:58:45 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[01-Aug-2025 14:58:45 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[01-Aug-2025 14:58:45 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[01-Aug-2025 14:58:45 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[01-Aug-2025 14:58:45 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[01-Aug-2025 14:58:45 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[01-Aug-2025 14:58:45 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[01-Aug-2025 14:58:45 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[01-Aug-2025 14:58:45 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[01-Aug-2025 16:59:37 UTC] Automatic updates starting...
+[01-Aug-2025 16:59:37 UTC]   Automatic plugin updates starting...
+[01-Aug-2025 16:59:37 UTC]   Automatic plugin updates complete.
+[01-Aug-2025 16:59:38 UTC] Automatic updates complete.
+[02-Aug-2025 05:08:09 UTC] Automatic updates starting...
+[02-Aug-2025 05:08:10 UTC]   Automatic plugin updates starting...
+[02-Aug-2025 05:08:10 UTC]   Automatic plugin updates complete.
+[02-Aug-2025 05:08:10 UTC] Automatic updates complete.
+[02-Aug-2025 09:51:21 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[02-Aug-2025 09:51:21 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[02-Aug-2025 09:51:21 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[02-Aug-2025 09:51:21 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[02-Aug-2025 09:51:21 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[02-Aug-2025 09:51:21 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[02-Aug-2025 09:51:21 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[02-Aug-2025 09:51:21 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[02-Aug-2025 09:51:21 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[02-Aug-2025 09:51:21 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[02-Aug-2025 17:09:48 UTC] Automatic updates starting...
+[02-Aug-2025 17:09:48 UTC]   Automatic plugin updates starting...
+[02-Aug-2025 17:09:48 UTC]   Automatic plugin updates complete.
+[02-Aug-2025 17:09:49 UTC] Automatic updates complete.
+[03-Aug-2025 04:59:28 UTC] Automatic updates starting...
+[03-Aug-2025 04:59:29 UTC]   Automatic plugin updates starting...
+[03-Aug-2025 04:59:29 UTC]   Automatic plugin updates complete.
+[03-Aug-2025 04:59:29 UTC] Automatic updates complete.
+[03-Aug-2025 07:19:00 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[03-Aug-2025 07:19:00 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[03-Aug-2025 07:19:00 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[03-Aug-2025 07:19:00 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[03-Aug-2025 07:19:00 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[03-Aug-2025 07:19:00 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[03-Aug-2025 07:19:00 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[03-Aug-2025 07:19:00 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[03-Aug-2025 07:19:00 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[03-Aug-2025 07:19:00 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[03-Aug-2025 17:01:46 UTC] Automatic updates starting...
+[03-Aug-2025 17:01:46 UTC]   Automatic plugin updates starting...
+[03-Aug-2025 17:01:46 UTC]   Automatic plugin updates complete.
+[03-Aug-2025 17:01:47 UTC] Automatic updates complete.
+[03-Aug-2025 20:53:02 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[03-Aug-2025 20:53:02 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[03-Aug-2025 20:53:02 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[03-Aug-2025 20:53:02 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[03-Aug-2025 20:53:02 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[03-Aug-2025 20:53:02 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[03-Aug-2025 20:53:02 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[03-Aug-2025 20:53:02 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[03-Aug-2025 20:53:02 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[03-Aug-2025 20:53:02 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[04-Aug-2025 05:01:54 UTC] Automatic updates starting...
+[04-Aug-2025 05:01:55 UTC]   Automatic plugin updates starting...
+[04-Aug-2025 05:01:55 UTC]   Automatic plugin updates complete.
+[04-Aug-2025 05:01:55 UTC] Automatic updates complete.
+[04-Aug-2025 17:18:41 UTC] Automatic updates starting...
+[04-Aug-2025 17:18:42 UTC]   Automatic plugin updates starting...
+[04-Aug-2025 17:18:42 UTC]   Automatic plugin updates complete.
+[04-Aug-2025 17:18:42 UTC] Automatic updates complete.
+[04-Aug-2025 20:34:43 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[04-Aug-2025 20:34:43 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[04-Aug-2025 20:34:43 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[04-Aug-2025 20:34:43 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[04-Aug-2025 20:34:43 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[04-Aug-2025 20:34:43 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[04-Aug-2025 20:34:43 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[04-Aug-2025 20:34:43 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[04-Aug-2025 20:34:43 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[04-Aug-2025 20:34:43 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[05-Aug-2025 14:36:19 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[05-Aug-2025 14:36:19 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[05-Aug-2025 14:36:19 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[05-Aug-2025 14:36:19 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[05-Aug-2025 14:36:19 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[05-Aug-2025 14:36:19 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[05-Aug-2025 14:36:19 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[05-Aug-2025 14:36:19 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[05-Aug-2025 14:36:19 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[05-Aug-2025 14:36:19 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[06-Aug-2025 05:52:24 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[06-Aug-2025 05:52:24 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[06-Aug-2025 05:52:24 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[06-Aug-2025 05:52:24 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[06-Aug-2025 05:52:24 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[06-Aug-2025 05:52:24 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[06-Aug-2025 05:52:24 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[06-Aug-2025 05:52:24 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[06-Aug-2025 05:52:24 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[06-Aug-2025 05:52:24 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[07-Aug-2025 08:48:22 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[07-Aug-2025 08:48:22 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[07-Aug-2025 08:48:22 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[07-Aug-2025 08:48:22 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[07-Aug-2025 08:48:22 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[07-Aug-2025 08:48:22 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[07-Aug-2025 08:48:22 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[07-Aug-2025 08:48:22 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[07-Aug-2025 08:48:22 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[07-Aug-2025 08:48:22 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[07-Aug-2025 20:23:58 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[07-Aug-2025 20:23:58 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[07-Aug-2025 20:23:58 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[07-Aug-2025 20:23:58 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[07-Aug-2025 20:23:58 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[07-Aug-2025 20:23:58 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[07-Aug-2025 20:23:58 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[07-Aug-2025 20:23:58 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[07-Aug-2025 20:23:58 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[07-Aug-2025 20:23:58 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[08-Aug-2025 17:59:00 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[08-Aug-2025 17:59:00 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[08-Aug-2025 17:59:00 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[08-Aug-2025 17:59:00 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[08-Aug-2025 17:59:00 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[08-Aug-2025 17:59:00 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[08-Aug-2025 17:59:00 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[08-Aug-2025 17:59:00 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[08-Aug-2025 17:59:00 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[08-Aug-2025 17:59:00 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[08-Aug-2025 21:13:44 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[08-Aug-2025 21:13:44 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[08-Aug-2025 21:13:44 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[08-Aug-2025 21:13:44 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[08-Aug-2025 21:13:44 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[08-Aug-2025 21:13:44 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[08-Aug-2025 21:13:44 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[08-Aug-2025 21:13:44 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[08-Aug-2025 21:13:44 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[08-Aug-2025 21:13:44 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[08-Aug-2025 23:54:35 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[08-Aug-2025 23:54:35 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[08-Aug-2025 23:54:35 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[08-Aug-2025 23:54:35 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[08-Aug-2025 23:54:35 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[08-Aug-2025 23:54:35 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[08-Aug-2025 23:54:35 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[08-Aug-2025 23:54:35 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[08-Aug-2025 23:54:35 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[08-Aug-2025 23:54:35 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[10-Aug-2025 04:56:58 UTC] Automatic updates starting...
+[10-Aug-2025 04:56:59 UTC]   Automatic plugin updates starting...
+[10-Aug-2025 04:56:59 UTC]   Automatic plugin updates complete.
+[10-Aug-2025 04:57:00 UTC]   Automatic theme updates starting...
+[10-Aug-2025 04:57:00 UTC]   Automatic theme updates complete.
+[10-Aug-2025 04:57:00 UTC] Automatic updates complete.
+[10-Aug-2025 05:14:19 UTC] Automatic updates starting...
+[10-Aug-2025 05:14:19 UTC]   Automatic plugin updates starting...
+[10-Aug-2025 05:14:19 UTC]   Automatic plugin updates complete.
+[10-Aug-2025 05:14:19 UTC]   Automatic theme updates starting...
+[10-Aug-2025 05:14:19 UTC]   Automatic theme updates complete.
+[10-Aug-2025 05:14:19 UTC] Automatic updates complete.
+[10-Aug-2025 17:06:43 UTC] Automatic updates starting...
+[10-Aug-2025 17:06:43 UTC]   Automatic plugin updates starting...
+[10-Aug-2025 17:06:43 UTC]   Automatic plugin updates complete.
+[10-Aug-2025 17:06:44 UTC]   Automatic theme updates starting...
+[10-Aug-2025 17:06:44 UTC]   Automatic theme updates complete.
+[10-Aug-2025 17:06:44 UTC] Automatic updates complete.
+[10-Aug-2025 21:09:35 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[10-Aug-2025 21:09:35 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[10-Aug-2025 21:09:35 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[10-Aug-2025 21:09:35 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[10-Aug-2025 21:09:35 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[10-Aug-2025 21:09:35 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[10-Aug-2025 21:09:35 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[10-Aug-2025 21:09:35 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[10-Aug-2025 21:09:35 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[10-Aug-2025 21:09:35 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[10-Aug-2025 22:43:13 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[10-Aug-2025 22:43:13 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[10-Aug-2025 22:43:13 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[10-Aug-2025 22:43:13 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[10-Aug-2025 22:43:13 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[10-Aug-2025 22:43:13 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[10-Aug-2025 22:43:13 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[10-Aug-2025 22:43:13 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[10-Aug-2025 22:43:13 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[10-Aug-2025 22:43:13 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[11-Aug-2025 04:38:44 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[11-Aug-2025 04:38:44 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[11-Aug-2025 04:38:44 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[11-Aug-2025 04:38:44 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[11-Aug-2025 04:38:44 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[11-Aug-2025 04:38:44 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[11-Aug-2025 04:38:44 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[11-Aug-2025 04:38:44 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[11-Aug-2025 04:38:44 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[11-Aug-2025 04:38:44 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[11-Aug-2025 05:00:49 UTC] Automatic updates starting...
+[11-Aug-2025 05:00:50 UTC]   Automatic plugin updates starting...
+[11-Aug-2025 05:00:50 UTC]   Automatic plugin updates complete.
+[11-Aug-2025 05:00:50 UTC]   Automatic theme updates starting...
+[11-Aug-2025 05:00:50 UTC]   Automatic theme updates complete.
+[11-Aug-2025 05:00:50 UTC] Automatic updates complete.
+[11-Aug-2025 11:54:22 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[11-Aug-2025 11:54:22 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[11-Aug-2025 11:54:22 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[11-Aug-2025 11:54:22 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[11-Aug-2025 11:54:22 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[11-Aug-2025 11:54:22 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[11-Aug-2025 11:54:22 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[11-Aug-2025 11:54:22 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[11-Aug-2025 11:54:22 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[11-Aug-2025 11:54:22 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[11-Aug-2025 17:06:07 UTC] Automatic updates starting...
+[11-Aug-2025 17:06:07 UTC]   Automatic plugin updates starting...
+[11-Aug-2025 17:06:07 UTC]   Automatic plugin updates complete.
+[11-Aug-2025 17:06:08 UTC]   Automatic theme updates starting...
+[11-Aug-2025 17:06:08 UTC]   Automatic theme updates complete.
+[11-Aug-2025 17:06:08 UTC] Automatic updates complete.
+[12-Aug-2025 04:59:09 UTC] Automatic updates starting...
+[12-Aug-2025 04:59:10 UTC]   Automatic plugin updates starting...
+[12-Aug-2025 04:59:10 UTC]   Automatic plugin updates complete.
+[12-Aug-2025 04:59:10 UTC]   Automatic theme updates starting...
+[12-Aug-2025 04:59:10 UTC]   Automatic theme updates complete.
+[12-Aug-2025 04:59:10 UTC] Automatic updates complete.
+[12-Aug-2025 16:59:36 UTC] Automatic updates starting...
+[12-Aug-2025 16:59:37 UTC]   Automatic plugin updates starting...
+[12-Aug-2025 16:59:37 UTC]   Automatic plugin updates complete.
+[12-Aug-2025 16:59:37 UTC]   Automatic theme updates starting...
+[12-Aug-2025 16:59:37 UTC]   Automatic theme updates complete.
+[12-Aug-2025 16:59:37 UTC] Automatic updates complete.
+[13-Aug-2025 00:41:48 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[13-Aug-2025 00:41:48 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[13-Aug-2025 00:41:48 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[13-Aug-2025 00:41:48 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[13-Aug-2025 00:41:48 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[13-Aug-2025 00:41:48 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[13-Aug-2025 00:41:48 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[13-Aug-2025 00:41:48 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[13-Aug-2025 00:41:48 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[13-Aug-2025 00:41:48 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[13-Aug-2025 05:08:36 UTC] Automatic updates starting...
+[13-Aug-2025 05:08:37 UTC]   Automatic plugin updates starting...
+[13-Aug-2025 05:08:37 UTC]   Automatic plugin updates complete.
+[13-Aug-2025 05:08:37 UTC]   Automatic theme updates starting...
+[13-Aug-2025 05:08:37 UTC]   Automatic theme updates complete.
+[13-Aug-2025 05:08:37 UTC] Automatic updates complete.
+[13-Aug-2025 17:02:01 UTC] Automatic updates starting...
+[13-Aug-2025 17:02:01 UTC]   Automatic plugin updates starting...
+[13-Aug-2025 17:02:01 UTC]   Automatic plugin updates complete.
+[13-Aug-2025 17:02:02 UTC]   Automatic theme updates starting...
+[13-Aug-2025 17:02:02 UTC]   Automatic theme updates complete.
+[13-Aug-2025 17:02:02 UTC] Automatic updates complete.
+[14-Aug-2025 00:30:09 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[14-Aug-2025 00:30:09 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[14-Aug-2025 00:30:09 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[14-Aug-2025 00:30:09 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[14-Aug-2025 00:30:09 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[14-Aug-2025 00:30:09 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[14-Aug-2025 00:30:09 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[14-Aug-2025 00:30:09 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[14-Aug-2025 00:30:09 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[14-Aug-2025 00:30:09 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[14-Aug-2025 05:03:54 UTC] Automatic updates starting...
+[14-Aug-2025 05:03:55 UTC]   Automatic plugin updates starting...
+[14-Aug-2025 05:03:55 UTC]   Automatic plugin updates complete.
+[14-Aug-2025 05:03:55 UTC]   Automatic theme updates starting...
+[14-Aug-2025 05:03:55 UTC]   Automatic theme updates complete.
+[14-Aug-2025 05:03:55 UTC] Automatic updates complete.
+[14-Aug-2025 12:21:24 UTC] PHP Warning:  mysqli_real_connect(): php_network_getaddresses: getaddrinfo for db failed: Temporary failure in name resolution in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[14-Aug-2025 12:21:24 UTC] PHP Warning:  mysqli_real_connect(): php_network_getaddresses: getaddrinfo for db failed: Temporary failure in name resolution in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[14-Aug-2025 12:21:24 UTC] PHP Warning:  mysqli_real_connect(): php_network_getaddresses: getaddrinfo for db failed: Temporary failure in name resolution in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[14-Aug-2025 12:21:33 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo for db failed: Temporary failure in name resolution in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[14-Aug-2025 12:21:33 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo for db failed: Temporary failure in name resolution in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[14-Aug-2025 12:21:33 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo for db failed: Temporary failure in name resolution in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[14-Aug-2025 12:37:52 UTC] PHP Warning:  mysqli_real_connect(): php_network_getaddresses: getaddrinfo for db failed: Temporary failure in name resolution in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[14-Aug-2025 12:37:54 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo for db failed: Temporary failure in name resolution in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[14-Aug-2025 17:10:54 UTC] Automatic updates starting...
+[14-Aug-2025 17:10:55 UTC]   Automatic plugin updates starting...
+[14-Aug-2025 17:10:55 UTC]   Automatic plugin updates complete.
+[14-Aug-2025 17:10:55 UTC]   Automatic theme updates starting...
+[14-Aug-2025 17:10:55 UTC]   Automatic theme updates complete.
+[14-Aug-2025 17:10:55 UTC] Automatic updates complete.
+[15-Aug-2025 05:00:00 UTC] Automatic updates starting...
+[15-Aug-2025 05:00:00 UTC]   Automatic plugin updates starting...
+[15-Aug-2025 05:00:00 UTC]   Automatic plugin updates complete.
+[15-Aug-2025 05:00:01 UTC]   Automatic theme updates starting...
+[15-Aug-2025 05:00:01 UTC]   Automatic theme updates complete.
+[15-Aug-2025 05:00:01 UTC] Automatic updates complete.
+[15-Aug-2025 07:25:50 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[15-Aug-2025 07:25:50 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[15-Aug-2025 07:25:50 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[15-Aug-2025 07:25:50 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[15-Aug-2025 07:25:50 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[15-Aug-2025 07:25:50 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[15-Aug-2025 07:25:50 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[15-Aug-2025 07:25:50 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[15-Aug-2025 07:25:50 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[15-Aug-2025 07:25:50 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[15-Aug-2025 17:00:47 UTC] Automatic updates starting...
+[15-Aug-2025 17:00:47 UTC]   Automatic plugin updates starting...
+[15-Aug-2025 17:00:47 UTC]   Automatic plugin updates complete.
+[15-Aug-2025 17:00:48 UTC]   Automatic theme updates starting...
+[15-Aug-2025 17:00:48 UTC]   Automatic theme updates complete.
+[15-Aug-2025 17:00:48 UTC] Automatic updates complete.
+[16-Aug-2025 00:38:13 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[16-Aug-2025 00:38:13 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[16-Aug-2025 00:38:13 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[16-Aug-2025 00:38:13 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[16-Aug-2025 00:38:13 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[16-Aug-2025 00:38:13 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[16-Aug-2025 00:38:13 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[16-Aug-2025 00:38:13 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[16-Aug-2025 00:38:13 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[16-Aug-2025 00:38:13 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[16-Aug-2025 02:08:22 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[16-Aug-2025 02:08:22 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[16-Aug-2025 02:08:22 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[16-Aug-2025 02:08:22 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[16-Aug-2025 02:08:22 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[16-Aug-2025 02:08:22 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[16-Aug-2025 02:08:22 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[16-Aug-2025 02:08:22 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[16-Aug-2025 02:08:22 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[16-Aug-2025 02:08:22 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[16-Aug-2025 05:06:37 UTC] Automatic updates starting...
+[16-Aug-2025 05:06:38 UTC]   Automatic plugin updates starting...
+[16-Aug-2025 05:06:38 UTC]   Automatic plugin updates complete.
+[16-Aug-2025 05:06:38 UTC]   Automatic theme updates starting...
+[16-Aug-2025 05:06:38 UTC]   Automatic theme updates complete.
+[16-Aug-2025 05:06:38 UTC] Automatic updates complete.
+[16-Aug-2025 17:03:32 UTC] Automatic updates starting...
+[16-Aug-2025 17:03:33 UTC]   Automatic plugin updates starting...
+[16-Aug-2025 17:03:33 UTC]   Automatic plugin updates complete.
+[16-Aug-2025 17:03:33 UTC]   Automatic theme updates starting...
+[16-Aug-2025 17:03:33 UTC]   Automatic theme updates complete.
+[16-Aug-2025 17:03:33 UTC] Automatic updates complete.
+[16-Aug-2025 22:32:16 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[16-Aug-2025 22:32:16 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[16-Aug-2025 22:32:16 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[16-Aug-2025 22:32:16 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[16-Aug-2025 22:32:16 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[16-Aug-2025 22:32:16 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[16-Aug-2025 22:32:16 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[16-Aug-2025 22:32:16 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[16-Aug-2025 22:32:16 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[16-Aug-2025 22:32:16 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[17-Aug-2025 04:59:19 UTC] Automatic updates starting...
+[17-Aug-2025 04:59:20 UTC]   Automatic plugin updates starting...
+[17-Aug-2025 04:59:20 UTC]   Automatic plugin updates complete.
+[17-Aug-2025 04:59:20 UTC]   Automatic theme updates starting...
+[17-Aug-2025 04:59:20 UTC]   Automatic theme updates complete.
+[17-Aug-2025 04:59:20 UTC] Automatic updates complete.
+[17-Aug-2025 16:27:27 UTC] PHP Warning:  mysqli_real_connect(): php_network_getaddresses: getaddrinfo for db failed: Temporary failure in name resolution in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[17-Aug-2025 16:36:08 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo for db failed: Temporary failure in name resolution in /var/www/html/wp-includes/class-wpdb.php on line 1988
+[19-Aug-2025 10:25:46 UTC] Automatic updates starting...
+[19-Aug-2025 10:25:47 UTC]   Automatic plugin updates starting...
+[19-Aug-2025 10:25:47 UTC]   Automatic plugin updates complete.
+[19-Aug-2025 10:25:47 UTC]   Automatic theme updates starting...
+[19-Aug-2025 10:25:47 UTC]   Automatic theme updates complete.
+[19-Aug-2025 10:25:47 UTC] Automatic updates complete.
+[19-Aug-2025 17:01:27 UTC] Automatic updates starting...
+[19-Aug-2025 17:01:27 UTC]   Automatic plugin updates starting...
+[19-Aug-2025 17:01:27 UTC]   Automatic plugin updates complete.
+[19-Aug-2025 17:01:28 UTC]   Automatic theme updates starting...
+[19-Aug-2025 17:01:28 UTC]   Automatic theme updates complete.
+[19-Aug-2025 17:01:28 UTC] Automatic updates complete.
+[19-Aug-2025 18:35:29 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[19-Aug-2025 18:35:29 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[19-Aug-2025 18:35:29 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[19-Aug-2025 18:35:29 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[19-Aug-2025 18:35:29 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[19-Aug-2025 18:35:29 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[19-Aug-2025 18:35:29 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[19-Aug-2025 18:35:29 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[19-Aug-2025 18:35:29 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[19-Aug-2025 18:35:29 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[20-Aug-2025 05:04:34 UTC] Automatic updates starting...
+[20-Aug-2025 05:04:34 UTC]   Automatic plugin updates starting...
+[20-Aug-2025 05:04:34 UTC]   Automatic plugin updates complete.
+[20-Aug-2025 05:04:35 UTC]   Automatic theme updates starting...
+[20-Aug-2025 05:04:35 UTC]   Automatic theme updates complete.
+[20-Aug-2025 05:04:35 UTC] Automatic updates complete.
+[20-Aug-2025 17:00:32 UTC] Automatic updates starting...
+[20-Aug-2025 17:00:33 UTC]   Automatic plugin updates starting...
+[20-Aug-2025 17:00:33 UTC]   Automatic plugin updates complete.
+[20-Aug-2025 17:00:33 UTC]   Automatic theme updates starting...
+[20-Aug-2025 17:00:33 UTC]   Automatic theme updates complete.
+[20-Aug-2025 17:00:33 UTC] Automatic updates complete.
+[20-Aug-2025 21:28:34 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[20-Aug-2025 21:28:34 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[20-Aug-2025 21:28:34 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[20-Aug-2025 21:28:34 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[20-Aug-2025 21:28:34 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[20-Aug-2025 21:28:34 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[20-Aug-2025 21:28:34 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[20-Aug-2025 21:28:34 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[20-Aug-2025 21:28:34 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[20-Aug-2025 21:28:34 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[21-Aug-2025 05:02:06 UTC] Automatic updates starting...
+[21-Aug-2025 05:02:06 UTC]   Automatic plugin updates starting...
+[21-Aug-2025 05:02:06 UTC]   Automatic plugin updates complete.
+[21-Aug-2025 05:02:07 UTC]   Automatic theme updates starting...
+[21-Aug-2025 05:02:07 UTC]   Automatic theme updates complete.
+[21-Aug-2025 05:02:07 UTC] Automatic updates complete.
+[21-Aug-2025 14:25:31 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[21-Aug-2025 14:25:31 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[21-Aug-2025 14:25:31 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[21-Aug-2025 14:25:31 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[21-Aug-2025 14:25:31 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[21-Aug-2025 14:25:31 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[21-Aug-2025 14:25:31 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[21-Aug-2025 14:25:31 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[21-Aug-2025 14:25:31 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[21-Aug-2025 14:25:31 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[21-Aug-2025 17:01:46 UTC] Automatic updates starting...
+[21-Aug-2025 17:01:47 UTC]   Automatic plugin updates starting...
+[21-Aug-2025 17:01:47 UTC]   Automatic plugin updates complete.
+[21-Aug-2025 17:01:47 UTC]   Automatic theme updates starting...
+[21-Aug-2025 17:01:47 UTC]   Automatic theme updates complete.
+[21-Aug-2025 17:01:47 UTC] Automatic updates complete.
+[22-Aug-2025 05:06:55 UTC] Automatic updates starting...
+[22-Aug-2025 05:06:55 UTC]   Automatic plugin updates starting...
+[22-Aug-2025 05:06:55 UTC]   Automatic plugin updates complete.
+[22-Aug-2025 05:06:56 UTC]   Automatic theme updates starting...
+[22-Aug-2025 05:06:56 UTC]   Automatic theme updates complete.
+[22-Aug-2025 05:06:56 UTC] Automatic updates complete.
+[22-Aug-2025 17:06:10 UTC] Automatic updates starting...
+[22-Aug-2025 17:06:11 UTC]   Automatic plugin updates starting...
+[22-Aug-2025 17:06:11 UTC]   Automatic plugin updates complete.
+[22-Aug-2025 17:06:11 UTC]   Automatic theme updates starting...
+[22-Aug-2025 17:06:11 UTC]   Automatic theme updates complete.
+[22-Aug-2025 17:06:11 UTC] Automatic updates complete.
+[23-Aug-2025 04:59:31 UTC] Automatic updates starting...
+[23-Aug-2025 04:59:32 UTC]   Automatic plugin updates starting...
+[23-Aug-2025 04:59:32 UTC]   Automatic plugin updates complete.
+[23-Aug-2025 04:59:32 UTC]   Automatic theme updates starting...
+[23-Aug-2025 04:59:32 UTC]   Automatic theme updates complete.
+[23-Aug-2025 04:59:32 UTC] Automatic updates complete.
+[23-Aug-2025 09:56:17 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[23-Aug-2025 09:56:17 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[23-Aug-2025 09:56:17 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[23-Aug-2025 09:56:17 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[23-Aug-2025 09:56:17 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[23-Aug-2025 09:56:17 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[23-Aug-2025 09:56:17 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[23-Aug-2025 09:56:17 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[23-Aug-2025 09:56:17 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[23-Aug-2025 09:56:17 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[23-Aug-2025 16:58:58 UTC] Automatic updates starting...
+[23-Aug-2025 16:58:59 UTC]   Automatic plugin updates starting...
+[23-Aug-2025 16:58:59 UTC]   Automatic plugin updates complete.
+[23-Aug-2025 16:58:59 UTC]   Automatic theme updates starting...
+[23-Aug-2025 16:58:59 UTC]   Automatic theme updates complete.
+[23-Aug-2025 16:58:59 UTC] Automatic updates complete.
+[23-Aug-2025 19:21:40 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[23-Aug-2025 19:21:40 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[23-Aug-2025 19:21:40 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[23-Aug-2025 19:21:40 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[23-Aug-2025 19:21:40 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[23-Aug-2025 19:21:40 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[23-Aug-2025 19:21:40 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[23-Aug-2025 19:21:40 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[23-Aug-2025 19:21:40 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[23-Aug-2025 19:21:40 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[24-Aug-2025 04:58:59 UTC] Automatic updates starting...
+[24-Aug-2025 04:58:59 UTC]   Automatic plugin updates starting...
+[24-Aug-2025 04:58:59 UTC]   Automatic plugin updates complete.
+[24-Aug-2025 04:59:00 UTC]   Automatic theme updates starting...
+[24-Aug-2025 04:59:00 UTC]   Automatic theme updates complete.
+[24-Aug-2025 04:59:00 UTC] Automatic updates complete.
+[24-Aug-2025 13:07:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/themes/custom-crm-theme/header.php:11) in /var/www/html/wp-content/themes/custom-crm-theme/header.php on line 28
+[24-Aug-2025 17:00:02 UTC] Automatic updates starting...
+[24-Aug-2025 17:00:03 UTC]   Automatic plugin updates starting...
+[24-Aug-2025 17:00:03 UTC]   Automatic plugin updates complete.
+[24-Aug-2025 17:00:03 UTC]   Automatic theme updates starting...
+[24-Aug-2025 17:00:04 UTC]   Automatic theme updates complete.
+[24-Aug-2025 17:00:04 UTC] Automatic updates complete.
+[25-Aug-2025 05:00:26 UTC] Automatic updates starting...
+[25-Aug-2025 05:00:27 UTC]   Automatic plugin updates starting...
+[25-Aug-2025 05:00:27 UTC]   Automatic plugin updates complete.
+[25-Aug-2025 05:00:27 UTC]   Automatic theme updates starting...
+[25-Aug-2025 05:00:27 UTC]   Automatic theme updates complete.
+[25-Aug-2025 05:00:27 UTC] Automatic updates complete.
+[25-Aug-2025 16:59:26 UTC] Automatic updates starting...
+[25-Aug-2025 16:59:26 UTC]   Automatic plugin updates starting...
+[25-Aug-2025 16:59:26 UTC]   Automatic plugin updates complete.
+[25-Aug-2025 16:59:27 UTC]   Automatic theme updates starting...
+[25-Aug-2025 16:59:27 UTC]   Automatic theme updates complete.
+[25-Aug-2025 16:59:27 UTC] Automatic updates complete.
+[25-Aug-2025 19:59:13 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[25-Aug-2025 19:59:13 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[25-Aug-2025 19:59:13 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[25-Aug-2025 19:59:13 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[25-Aug-2025 19:59:13 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[25-Aug-2025 19:59:13 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[25-Aug-2025 19:59:13 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[25-Aug-2025 19:59:13 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[25-Aug-2025 19:59:13 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[25-Aug-2025 19:59:13 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[25-Aug-2025 19:59:13 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /var/www/html/wp-content/themes/custom-crm-theme/header.php on line 12
+[25-Aug-2025 21:58:45 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[25-Aug-2025 21:58:45 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[25-Aug-2025 21:58:45 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[25-Aug-2025 21:58:45 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[25-Aug-2025 21:58:45 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[25-Aug-2025 21:58:45 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[25-Aug-2025 21:58:45 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/canonical.php on line 717
+[25-Aug-2025 21:58:45 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[25-Aug-2025 21:58:45 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[25-Aug-2025 21:58:45 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[25-Aug-2025 21:58:45 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /var/www/html/wp-content/themes/custom-crm-theme/header.php on line 12
+[26-Aug-2025 05:06:52 UTC] Automatic updates starting...
+[26-Aug-2025 05:06:52 UTC]   Automatic plugin updates starting...
+[26-Aug-2025 05:06:52 UTC]   Automatic plugin updates complete.
+[26-Aug-2025 05:06:53 UTC]   Automatic theme updates starting...
+[26-Aug-2025 05:06:53 UTC]   Automatic theme updates complete.
+[26-Aug-2025 05:06:53 UTC] Automatic updates complete.
+[26-Aug-2025 12:57:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/themes/custom-crm-theme/header.php:13) in /var/www/html/wp-includes/pluggable.php on line 1450
+[26-Aug-2025 12:57:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/themes/custom-crm-theme/header.php:13) in /var/www/html/wp-includes/pluggable.php on line 1453
+[26-Aug-2025 13:03:40 UTC] PHP Warning:  Undefined global variable $_SESSION in /var/www/html/wp-content/themes/custom-crm-theme/header.php on line 14
+[26-Aug-2025 13:03:40 UTC] PHP Warning:  Undefined global variable $_SESSION in /var/www/html/wp-content/themes/custom-crm-theme/header.php on line 14
+[26-Aug-2025 13:04:44 UTC] PHP Warning:  Undefined global variable $_SESSION in /var/www/html/wp-content/themes/custom-crm-theme/header.php on line 14
+[26-Aug-2025 13:04:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/themes/custom-crm-theme/header.php:13) in /var/www/html/wp-content/themes/custom-crm-theme/header.php on line 22

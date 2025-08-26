@@ -20,7 +20,7 @@ get_header();
   <label>名前（ふりがな）: <input type="text" id="last_name_furi" value="ひかる" /></label><br />
   <label>生年月日: <input type="datetime-local" id="birthday" value="2000-02-22T00:00" /></label><br />
   <label>住所: <input type="text" id="address" value="大阪市1-1" /></label><br />
-  <label>郵便番号: <input type="text" id="post_number" value="100-0001" /></label><br />
+  <label>郵便番号: <input type="text" id="post_number" value="1000001" /></label><br />
   <label>電話番号: <input type="tel" id="tel" value="123-4567-8910" /></label><br />
   <label>メール: <input type="email" id="mail" value="test@example.com" /></label><br />
   <button onclick="submitCustomer()">登録</button>
@@ -29,36 +29,42 @@ get_header();
 <div id="response"></div>
 
 <script>
+  // 非同期で顧客情報を送信する関数（ボタンクリックなどで呼び出される）
   async function submitCustomer() {
+    // フォーム入力から値を取得し、送信データを作成
     const data = {
-      customer_id: document.getElementById("customer_id").value,
-      first_name: document.getElementById("first_name").value,
-      last_name: document.getElementById("last_name").value,
-      first_name_furi: document.getElementById("first_name_furi").value,
-      last_name_furi: document.getElementById("last_name_furi").value,
-      birthday: document.getElementById("birthday").value.replace("T", " ") + ":00",
-      address: document.getElementById("address").value,
-      post_number: document.getElementById("post_number").value,
-      tel: document.getElementById("tel").value,
-      mail: document.getElementById("mail").value
+      customer_id: document.getElementById("customer_id").value,               // 顧客ID
+      first_name: document.getElementById("first_name").value,                 // 名前（名）
+      last_name: document.getElementById("last_name").value,                   // 名前（姓）
+      first_name_furi: document.getElementById("first_name_furi").value,       // フリガナ（名）
+      last_name_furi: document.getElementById("last_name_furi").value,         // フリガナ（姓）
+      birthday: document.getElementById("birthday").value.replace("T", " ") + ":00", // 生年月日（datetime-local形式 → SQLのDATETIME形式へ変換）
+      address: document.getElementById("address").value,                       // 住所
+      post_number: document.getElementById("post_number").value,               // 郵便番号
+      tel: document.getElementById("tel").value,                               // 電話番号
+      mail: document.getElementById("mail").value                              // メールアドレス
     };
 
     try {
-      const response = await fetch("/flask/submit", {
-        method: "POST",
+      // FlaskサーバーのエンドポイントにPOSTリクエストを送信
+      const response = await fetch("/flask/customer_register", {
+        method: "POST",                         // HTTPメソッド（POST）
         headers: {
-          "Content-Type": "application/json"
+          "Content-Type": "application/json"   // 送信データ形式をJSONに指定
         },
-        body: JSON.stringify(data)
+        body: JSON.stringify(data)              // フォームデータをJSON文字列に変換して送信
       });
 
+      // サーバーからのレスポンスをJSONとしてパース
       const result = await response.json();
+
+      // レスポンスを画面に表示（成功メッセージ or ステータス）
       document.getElementById("response").innerText = result.message || result.status;
+
     } catch (error) {
+      // 通信エラーが発生した場合の処理
       console.error("送信エラー:", error);
       document.getElementById("response").innerText = "送信に失敗しました";
     }
   }
 </script>
-
-<?php get_footer(); ?>

@@ -302,3 +302,23 @@ body {
     background-color: #6944a8;
 }
 
+/* ヘッダー右上のログアウトボタン */
+.logout-form {
+    display: inline;
+    margin: 0;
+}
+
+.logout-btn-header {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 6px 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.logout-btn-header:hover {
+    background-color: #a71d2a;
+}
