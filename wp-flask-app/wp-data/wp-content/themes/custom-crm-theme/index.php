@@ -4,7 +4,7 @@ get_header();
 ?>
 <?php
 /**
- * Template Name: 顧客一覧テンプレート
+ * Template Name: 顧客一覧テンプレート 
  */
 ?>
 <html>
