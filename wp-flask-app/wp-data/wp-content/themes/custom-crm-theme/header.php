@@ -53,13 +53,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['logout'])) {
         <!-- 右上ログアウトボタン -->
         <div class="header-right">
             <form method="post" class="logout-form" style="display:inline;">
-                <button type="submit" name="logout" class="logout-btn" title="ログアウト">
+                <button type="submit" name="logout" class="logout-btn-header" title="ログアウト">
                     <i class="fas fa-sign-out-alt"></i> ログアウト
                 </button>
             </form>
         </div>
     </div>
 </header>
+
+<!-- 共通JSを読み込む -->
+<script src="<?php echo get_stylesheet_directory_uri(); ?>/common-check.js"></script>
 
 <div id="site-container" class="site-container">
     <?php get_sidebar(); ?>

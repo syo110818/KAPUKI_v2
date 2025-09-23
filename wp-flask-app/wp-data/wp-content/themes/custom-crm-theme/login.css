@@ -1,68 +1,97 @@
-/* ===== ログイン画面デザイン ===== */
+/* ================================
+   ログイン画面全体ラッパー
+   ================================ */
 .login-container {
     max-width: 400px;
     margin: 50px auto;
     padding: 30px;
     text-align: center;
-    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-family: "Helvetica Neue", Arial, sans-serif; 
 }
 
+/* ================================
+   ログインタイトル
+   ================================ */
 .login-title {
     font-size: 22px;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
+/* ================================
+   サブタイトル（説明文）
+   ================================ */
 .login-subtitle {
     font-size: 14px;
     color: #555;
     margin-bottom: 25px;
 }
 
+/* ================================
+   フォーム全体
+   ================================ */
 .login-form {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
+/* ================================
+   入力フィールド
+   ================================ */
 .login-input {
     padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    font-size: 14px;
+    border: 1px solid #ccc; 
+    border-radius: 6px; 
+    font-size: 14px; 
     outline: none;
 }
 
+/* ================================
+   入力フィールド: フォーカス時
+   ================================ */
 .login-input:focus {
     border-color: #333;
 }
 
+/* ================================
+   ログインボタン
+   ================================ */
 .login-button {
     background-color: #000;
     color: #fff;
     padding: 14px;
-    border: none;
-    border-radius: 6px;
-    font-size: 16px;
+    border: none; 
+    border-radius: 6px; 
+    font-size: 16px; 
     cursor: pointer;
-    font-weight: bold;
+    font-weight: bold; 
 }
 
+/* ================================
+   ログインボタン: ホバー時
+   ================================ */
 .login-button:hover {
-    background-color: #333;
+    background-color: #333; 
 }
 
+/* ================================
+   ログイン結果表示エリア
+   ================================ */
 .login-response {
-    margin-top: 15px;
-    color: red;
-    font-size: 14px;
+    margin-top: 15px; 
+    color: red; 
+    font-size: 14px; 
 }
 
+/* ================================
+   ログアウトボタン
+   ================================ */
 .logout-btn {
-    background: #000;
+    background: #000; 
     color: #fff;
-    padding: 10px 20px;
+    padding: 10px 20px; 
     border: none;
-    border-radius: 6px;
-    cursor: pointer;
+    border-radius: 6px; 
+    cursor: pointer; 
 }
