@@ -4,7 +4,7 @@ get_header();
 ?>
 <?php
 /**
- * Template Name: 顧客一覧テンプレート 
+ * Template Name: 顧客一覧テンプレート
  */
 ?>
 <html>
@@ -21,56 +21,43 @@ get_header();
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
   </head>
   <body>
-    <!-- メインレイアウト（サイドバー＋コンテンツ） -->
-    <div>
-      <!-- サイドバーは sidebar.php で表示されます -->
-      <div>
+      <!-- メインレイアウト（サイドバー＋コンテンツ） -->
+      <div class="main-layout">
         <!-- 顧客一覧ページのメインコンテンツ -->
-        <div>
-          <div>
+        <div class="customer-list-main">
+          <div class="customer-list-container">
             <!-- 顧客一覧ヘッダーと検索フォーム -->
-            <section>
-              <header>
-                <h2>顧客一覧</h2>
-              </header>
-              <div>
-                <form action="#" method="get">
-                  <input
-                    type="text"
-                    name="customer_search"
-                    placeholder="顧客を検索"
-                    autocomplete="off"
-                    id="customer_search_name"
-                  />
-                  <button type="button" onclick="searchCustomerByName()">検索</button>
+            <div class="customer-list-header">
+              <div class="customer-list-header-row">
+                <h2 class="header-title">顧客一覧</h2>
+                <form class="search-form" action="#" method="get">
+                  <input type="text" name="customer_search" placeholder="顧客を検索" class="search-input" autocomplete="off" id="customer_search_name"/>
+                  <button type="button" class="search-button" onclick="searchCustomerByName()">検索</button>
                 </form>
               </div>
-              <div id="count-text">登録件数：0件</div>
-            </section>
+              <div class="count-text" id="count-text">登録件数：0件</div>
+            </div>
             <!-- 顧客一覧テーブル -->
-            <section>
-              <div>
-                <table>
+            <div class="table-container @container">
+              <div class="customer-table">
+                <table class="customer-table customer-list-table">
                   <thead>
                     <tr>
-                      <th>氏名</th>
-                      <th>電話番号</th>
-                      <th>住所</th>
-                      <th>プラン</th>
-                      <th></th>
+                      <th class="customer-list-col-name">氏名</th>
+                      <th class="customer-list-col-tel">電話番号</th>
+                      <th class="customer-list-col-address">住所</th>
+                      <th class="customer-list-col-plan">プラン</th>
+                      <th class="customer-list-col-action"></th>
                     </tr>
                   </thead>
-                  <tbody id="customer-list-body">
-                    <!-- JavaScriptで挿入 -->
-                  </tbody>
+                  <tbody id="customer-list-body"></tbody>
                 </table>
               </div>
               <!-- スタイルは customer-list.css に移動 -->
-            </section>
+            </div>
           </div>
         </div>
       </div>
-    </div>
   </body>
 </html>
 
@@ -84,7 +71,7 @@ document.addEventListener("DOMContentLoaded", () => {
 async function searchCustomerByName(name = null) {
   // 検索キーワードを決定。引数がある場合はそれを使用、ない場合はフォームの値を取得
   const searchName = (name !== null) ? name.trim() : document.getElementById("customer_search_name").value.trim();
-  // テーブル本体と件数表示要素を取得
+  // テーブル本体と件数表示要素を取得s
   const tbody = document.getElementById("customer-list-body");
   const countText = document.getElementById("count-text");
 
@@ -108,7 +95,7 @@ async function searchCustomerByName(name = null) {
     // 配列でない、または要素がない場合
     if (!Array.isArray(customers) || customers.length === 0) {
       countText.textContent = "登録件数：0件";
-      tbody.innerHTML = `<tr><td colspan="5">顧客が見つかりません。</td></tr>`;
+       tbody.innerHTML = `<tr><td colspan="5">顧客が見つかりません。</td></tr>`;
       return;
     }
 
